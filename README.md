@@ -67,7 +67,7 @@ It supports registration, login, protected routes, and a cookie-based JWT sessio
 
 ## ✅ API Endpoints
 
-Base URL: `http://localhost:4000`
+Base URL: `https://wanderon-backend-xpbk.onrender.com`
 
 - `POST /auth/register`
 - `POST /auth/login`
