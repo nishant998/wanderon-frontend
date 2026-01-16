@@ -88,10 +88,8 @@ function AnimatedBackdrop() {
     <div className="pointer-events-none absolute inset-0 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_10%_15%,rgba(99,102,241,0.28),transparent_45%),radial-gradient(circle_at_85%_20%,rgba(236,72,153,0.20),transparent_45%),radial-gradient(circle_at_50%_90%,rgba(34,197,94,0.16),transparent_45%)]" />
 
-      {/* soft grid */}
       <div className="absolute inset-0 opacity-[0.08] [background-image:linear-gradient(to_right,rgba(255,255,255,.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,.2)_1px,transparent_1px)] [background-size:56px_56px]" />
 
-      {/* floating blobs */}
       <motion.div
         className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-indigo-500/18 blur-3xl"
         animate={{ y: [0, -18, 0], x: [0, 10, 0] }}
@@ -108,7 +106,6 @@ function AnimatedBackdrop() {
         transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
       />
 
-      {/* vignette */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_38%,rgba(0,0,0,0.78)_100%)]" />
     </div>
   );
